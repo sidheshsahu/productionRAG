@@ -1,5 +1,6 @@
 from deepeval.models import GeminiModel
 from deepeval.metrics import AnswerRelevancyMetric
+import os
 
 model = GeminiModel(
     model="gemini-2.5-pro",
