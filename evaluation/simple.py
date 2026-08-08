@@ -7,7 +7,7 @@ from deepeval.metrics import AnswerRelevancyMetric
 model = GeminiModel(
     model="gemini-3.6-flash",
     api_key=os.getenv('GOOGLE_API_KEY'),
-    temperature=0,
+    temperature=0.4,
 )
 
 answer_relevancy_metric = AnswerRelevancyMetric(model=model)
