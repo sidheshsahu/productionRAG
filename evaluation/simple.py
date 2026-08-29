@@ -39,7 +39,3 @@ for i, (question, pred_ans) in enumerate(zip(questions, pred_ans)):
 
     print(f"Completed {i + 1}/{len(questions)}:", question) 
     
-    if i < len(questions) - 1: 
-        print("Waiting 60 seconds before next question...") 
-        time.sleep(60)
-
