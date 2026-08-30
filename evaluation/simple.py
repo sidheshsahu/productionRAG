@@ -4,7 +4,7 @@ import os
 from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 from deepeval.evaluate import AsyncConfig
-from deepeval.metrics import AnswerRelevancyMetric
+from deepeval.metrics import AnswerRelevancyMetric,FaithfulnessMetric
 from evaluation.q_and_a_list import questions,pred_ans
 import time
 
@@ -15,10 +15,11 @@ model = GeminiModel(
     temperature=0.4,
 )
 
-metric = AnswerRelevancyMetric(
-threshold=0.7,
-model=model,
-include_reason=True
+
+metric = FaithfulnessMetric(
+    threshold=0.7,
+    model=model,
+    include_reason=True
 )
 
 results = []
