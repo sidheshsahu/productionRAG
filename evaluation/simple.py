@@ -6,7 +6,6 @@ from deepeval.test_case import LLMTestCase
 from deepeval.evaluate import AsyncConfig
 from deepeval.metrics import AnswerRelevancyMetric,FaithfulnessMetric
 from evaluation.q_and_a_list import questions,pred_ans
-import time
 
 model = GeminiModel(
     model="gemini-3.7-flash",
