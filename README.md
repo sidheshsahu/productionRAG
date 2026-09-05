@@ -31,6 +31,7 @@ Production systems extend this pipeline by introducing additional components suc
 - Evaluation
 - Observability
 - Metadata filtering
+- Semantic Caching
 
 This repository demonstrates how these techniques can be implemented in practice.
 
