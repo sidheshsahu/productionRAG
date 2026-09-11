@@ -27,10 +27,8 @@ Production systems extend this pipeline by introducing additional components suc
 - Hybrid retrieval
 - Reranking
 - Context compression
-- Caching
 - Evaluation
 - Observability
-- Metadata filtering
 - Semantic Caching
 
 This repository demonstrates how these techniques can be implemented in practice.
