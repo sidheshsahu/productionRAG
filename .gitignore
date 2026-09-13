@@ -1,4 +1,8 @@
 .env
 example.pdf
 .env.local
-retriever/sqlite.db
+notebooks/sqlite.db
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
