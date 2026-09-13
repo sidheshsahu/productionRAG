@@ -34,7 +34,7 @@ productionRAG/
 |  |- semantic_cache.ipynb        # GPTCache-backed semantic cache
 |  `- response_cache.ipynb        # Reserved for exact-response caching
 |- assets/                        # Visuals 
-|  |- production-rag-methods.png  # Post-ready image
+|  |- production-rag-methods.png  #  image
 |- docs/
 |  |- architecture.md             
 |- example.pdf                    # Example ingestion document
